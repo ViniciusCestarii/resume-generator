@@ -37,6 +37,8 @@ jobs:
 
     - name: Generate PDF
       run: bun print
+      env:
+        FULLNAME: ${{ vars.FULLNAME }}
 
     - name: Commit and push if changed
       run: |-
