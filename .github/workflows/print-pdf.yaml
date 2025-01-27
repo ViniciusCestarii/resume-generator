@@ -14,6 +14,12 @@ jobs:
       contents: write
 
     steps:
+      
+    - name: Install Puppeteer Libraries
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libgbm1
+        
     - uses: actions/checkout@v2
 
     - name: Set up Bun
