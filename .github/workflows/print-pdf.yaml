@@ -1,0 +1,37 @@
+name: 'Print PDF'
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: 1.2.0
+
+    - name: Install dependencies
+      run: bun install --frozen-lockfile
+
+    - name: Generate PDF
+      run: bun run print
+
+    - name: Commit and push if changed
+      run: |-
+        git diff
+        git config --global user.email "pdf-bot@example.com"
+        git config --global user.name "PDF-bot"
+        git add -A
+        git commit -m "Updated Resume" || exit 0
+        git push
