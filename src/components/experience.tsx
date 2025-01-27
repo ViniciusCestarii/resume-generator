@@ -18,7 +18,7 @@ function Experience({ experience }: ExperienceProps) {
             <h3 className="font-bold">{exp.company}</h3>
             <span>{exp.duration}</span>
           </div>
-          <ul className="list-disc ml-5 space-y-2">
+          <ul className="list-disc ml-5 space-y-2 text-sm">
             {exp.responsibilities.map((responsibility, i) => (
               <li key={i}>{responsibility}</li>
             ))}

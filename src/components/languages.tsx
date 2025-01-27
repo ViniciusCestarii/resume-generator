@@ -6,7 +6,7 @@ interface LanguagesProps {
 
 function Languages({ languages }: LanguagesProps) {
   return (
-    <section className="mb-6">
+    <section className="mb-6 text-sm">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
         Languages
       </h2>

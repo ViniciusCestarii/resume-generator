@@ -18,7 +18,7 @@ function Education({ education }: EducationProps) {
             <h3 className="font-bold">{edu.institution}</h3>
             <span>{edu.duration}</span>
           </div>
-          <p>
+          <p className="text-sm">
             {edu.location}
           </p>
         </div>))}

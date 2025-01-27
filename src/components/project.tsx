@@ -16,7 +16,9 @@ function Projects({ projects }: ProjectsProps) {
         {projects.map((project, index) => (
           <div key={index}>
             <p className="mb-1">
-              <span className="font-bold">{project.name}</span> (
+              <span className="font-bold">{project.name}</span>
+              {" "}
+              <span className="text-sm">(
               {project.links.map((link, i) => (
                 <span key={i}>
                   <Link
@@ -28,8 +30,9 @@ function Projects({ projects }: ProjectsProps) {
                 </span>
               ))}
               ) <span className="italic">{project.technologies}</span>
+              </span>
             </p>
-            <p>{project.description}</p>
+            <p className="text-sm">{project.description}</p>
           </div>
         ))}
       </div>

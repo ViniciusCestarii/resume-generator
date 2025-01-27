@@ -15,10 +15,9 @@ export const resumeData: ResumeData = {
       duration: "Feb 2024 - Present",
       responsibilities: [
         "Designed and developed a robust microservice (.NET, RabbitMQ) for seamless integration with Banco do Brasil's batch payment API, automating and optimizing financial transaction processing.",
-        "Developed a Kanban board system using WebSockets and SignalR, enabling real-time updates and seamless task interactions for users.",
         "Designed and implemented a high-performance data aggregation service (Go, Gin, S3) consolidating 50+ distributed PostgreSQL databases into static datasets, reducing data processing time by 80%.",
         "Built a dynamic dashboard (Next.js, Chart.js, React Query) that fetches data based on user tenancy and role, ensuring personalized and secure access to relevant information.",
-        "Implemented CI/CD pipelines, deployed new services to production, and provided ongoing support by debugging and ensuring optimal performance."
+        "Implemented CI/CD pipelines, deployed new services to production, and provided ongoing support by debugging and ensuring optimal performance for more than 10 services."
       ],
     },
     {
@@ -72,5 +71,6 @@ export const resumeData: ResumeData = {
     "Databases: PostgreSQL, MySQL, MongoDB, Redis",
     "Cloud & DevOps: AWS (S3, SES, SQS), Firebase, Vercel, Docker, CI/CD Pipelines",
     "Tools: Git, GitHub, GitLab, Postman, Insomnia, VS Code, Docker, Figma",
+    "Soft Skills: Problem-Solving, Teamwork, Communication, Time Management",
   ],
 };
