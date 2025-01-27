@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "print": "bun run scripts/print-resume.ts",
+    "generate": "bun run scripts/generate-resume.ts",
     "print:workflow": "bun dev"
   },
   "dependencies": {
