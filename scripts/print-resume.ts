@@ -14,15 +14,23 @@ import fs from 'fs';
 
   try {
     const page = await browser.newPage();
-    await page.goto('http://localhost:5173', { waitUntil: 'networkidle2' });
+    await page.goto('http://localhost:5173', { waitUntil: 'networkidle0' });
 
     const dir = path.join(__dirname, '../resumes/pdf');
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
 
-    const fileName = `${process.env.FULLNAME} Resume.pdf`;
-    const pdfPath = path.join(dir, fileName);
+    const fileName = `${process.env.FULLNAME} Resume`;
+    const jpegPath = path.join(dir, `${fileName}.jpeg`);
+    const pdfPath = path.join(dir, `${fileName}.pdf`);
+
+    await page.screenshot({
+      path: jpegPath,
+      type: 'jpeg',
+      quality: 90,
+      fullPage: true,
+    });
 
     await page.pdf({
       path: pdfPath,
