@@ -19,7 +19,6 @@ formats and supports translation of resume content using the **Groq API**.
 
 Before you begin, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (v18 or higher)
 - [Bun](https://bun.sh/) (for ts file execution)
 - [Git](https://git-scm.com/)
 
