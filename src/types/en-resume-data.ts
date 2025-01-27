@@ -3,7 +3,7 @@ import { ResumeData } from "./resume";
 export const enResumeData: ResumeData = {
   name: "Vinicius Cestari",
   contact: {
-    address: "Brsuque, Santa Catarina, Brazil",
+    address: "Brusque, Santa Catarina, Brazil",
     phone: "+55 47 99775-5351",
     email: "viniciuscestari01@gmail.com",
     linkedin: "in/-vinicius-cestari",
