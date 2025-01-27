@@ -7,6 +7,10 @@ import fs from 'fs';
     throw new Error('FULLNAME environment variable is required');
   }
 
+  if (!process.env.PRINT_PORT) {
+    throw new Error('PRINT_PORT environment variable is required');
+  }
+
   const browser = await puppeteer.launch({
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
@@ -14,7 +18,8 @@ import fs from 'fs';
 
   try {
     const page = await browser.newPage();
-    await page.goto('http://localhost:5173', { waitUntil: 'networkidle0' });
+    const url = `http://localhost:${process.env.PRINT_PORT}`;
+    await page.goto(url, { waitUntil: 'networkidle0' });
 
     const dir = path.join(__dirname, '../resumes/pdf');
     if (!fs.existsSync(dir)) {

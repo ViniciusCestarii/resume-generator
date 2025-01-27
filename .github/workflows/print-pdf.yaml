@@ -36,8 +36,11 @@ jobs:
     - name: Install dependencies
       run: bun install --frozen-lockfile
 
+    - name: Build
+      run: bun run build
+
     - name: Start development server
-      run: bun run dev &
+      run: bun preview &
       env:
         HOST: 0.0.0.0  
 
@@ -45,6 +48,7 @@ jobs:
       run: bun print
       env:
         FULLNAME: ${{ vars.FULLNAME }}
+        PRINT_PORT: 4173
 
     - name: Commit and push if changed
       run: |-
