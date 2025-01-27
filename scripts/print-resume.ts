@@ -30,9 +30,6 @@ import fs from 'fs';
     const jpegPath = path.join(dir, `${fileName}.jpeg`);
     const pdfPath = path.join(dir, `${fileName}.pdf`);
 
-    const html = await page.content();
-    console.log(html);
-
     await page.screenshot({
       path: jpegPath,
       type: 'jpeg',
