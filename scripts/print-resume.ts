@@ -21,7 +21,7 @@ import fs from 'fs';
     const url = `http://localhost:${process.env.PRINT_PORT}`;
     await page.goto(url, { waitUntil: 'networkidle0' });
 
-    const dir = path.join(__dirname, '../resumes/pdf');
+    const dir = path.join(__dirname, '../resumes');
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
