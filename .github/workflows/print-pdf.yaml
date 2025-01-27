@@ -35,14 +35,6 @@ jobs:
       env:
         HOST: 0.0.0.0  
 
-    - name: Wait for port 5173
-      uses: fountainhead/action-wait-for-check@v1
-      with:
-        type: tcp
-        address: 0.0.0.0
-        port: 5173
-        timeout: 60
-
     - name: Generate PDF
       run: bun print
 
