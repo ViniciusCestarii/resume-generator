@@ -123,16 +123,16 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/ViniciusCestarii/resume-generator/blob/main/LICENSE). See the LICENSE file for details.
 
 ---
 
 ## Acknowledgments
 
-- **Vite** for the blazing-fast development experience.
-- **Tailwind CSS** for the utility-first CSS framework.
-- **Puppeteer** for headless browser automation.
-- **Groq** for the translation API.
+- [**Vite**](https://vite.dev/) for the blazing-fast development experience.
+- [**Tailwind CSS**](https://tailwindcss.com/) for the utility-first CSS framework.
+- [**Puppeteer**](https://pptr.dev/) for headless browser automation.
+- [**Groq**](https://groq.com/) for the translation API.
 
 ---
 
