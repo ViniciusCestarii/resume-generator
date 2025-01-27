@@ -32,6 +32,8 @@ import fs from 'fs';
       fullPage: true,
     });
 
+    console.log(`JPEG saved to: ${jpegPath}`);
+
     await page.pdf({
       path: pdfPath,
       format: 'A4',
