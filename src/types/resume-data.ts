@@ -31,12 +31,10 @@ export const resumeData: ResumeData = {
     },
   ],
   education: [{
-    location: "Brusque, Santa Catarina",
     institution: "UNIFEBE",
     duration: "Feb 2023 - Dez 2026",
     degree: "Bachelor of Information Systems",
   }, {
-    location: "Brusque, Santa Catarina",
     institution: "IFC Campus Brusque",
     duration: "Feb 2020 - Dez 2022",
     degree: "Technical in Information Technology",
@@ -67,7 +65,7 @@ export const resumeData: ResumeData = {
   ],
   skills: [
     "General Programming: Javascript, Typescript, Go, C#, Java",
-    "Web Development: JavaScript, HTML, CSS, React, Next.js, Svelte, Tailwind CSS, Node.js, Bun, Prisma, C#, .NET, Entity Framework, Express, WebSockets, RESTful APIs, GraphQL, SEO",
+    "Web Development: JavaScript, HTML, CSS, React, Next.js, Vite, Svelte, MUI, Shadcn/ui, Tailwind CSS, Node.js, Bun, Prisma, C#, .NET, Entity Framework, Express, WebSockets, RESTful APIs, GraphQL, Puppeteer, SEO",
     "Databases: PostgreSQL, MySQL, MongoDB, Redis",
     "Cloud & DevOps: AWS (S3, SES, SQS), Firebase, Vercel, Docker, CI/CD Pipelines",
     "Tools: Git, GitHub, GitLab, Postman, Insomnia, VS Code, Docker, Figma",

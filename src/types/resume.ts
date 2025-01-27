@@ -13,7 +13,6 @@ export interface Experience {
 }
 
 export interface Education {
-  location: string;
   institution: string;
   duration: string;
   degree: string;

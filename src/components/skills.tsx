@@ -6,7 +6,7 @@ interface SkillsProps {
 
 function Skills({ skills }: SkillsProps) {
   return (
-    <section>
+    <section className="break-after-page">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
         Skills
       </h2>
