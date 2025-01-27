@@ -30,8 +30,21 @@ jobs:
     - name: Install dependencies
       run: bun install --frozen-lockfile
 
+    - name: Start development server
+      run: bun run dev &
+      env:
+        HOST: 0.0.0.0  
+
+    - name: Wait for port 5173
+      uses: fountainhead/action-wait-for-check@v1
+      with:
+        type: tcp
+        address: 0.0.0.0
+        port: 5173
+        timeout: 60
+
     - name: Generate PDF
-      run: bun run print
+      run: bun print
 
     - name: Commit and push if changed
       run: |-

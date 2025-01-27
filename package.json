@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "print": "bun run scripts/print-resume.ts"
+    "print": "bun run scripts/print-resume.ts",
+    "print:workflow": "bun dev"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
