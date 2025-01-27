@@ -1,6 +1,6 @@
 import { ResumeData } from "./resume";
 
-export const resumeData: ResumeData = {
+export const enResumeData: ResumeData = {
   name: "Vinicius Cestari",
   contact: {
     address: "Brsuque, Santa Catarina, Brazil",
