@@ -19,7 +19,7 @@ export const ptResumeData: ResumeData = {
           "Projetei e desenvolvi um robusto microsserviço (.NET, RabbitMQ) para integração com a API de pagamentos por lote do Banco do Brasil, automatizando e otimizando o processamento de transações financeiras.",
           "Projetei e implementei um serviço de agregação de dados de alto desempenho (Go, Gin, S3) consolidando 50+ bancos de dados PostgreSQL distribuídos em conjuntos de dados estáticos, reduzindo o tempo de processamento de dados em 80%.",
           "Construí um painel dinâmico (Next.js, Chart.js, React Query) que busca dados com base na tenância e papel do usuário, garantindo acesso personalizado e seguro às informações relevantes.",
-          "Implementei pipelines de CI/CD, deploy de novos serviços para produção e forneci suporte contínuo, depurando e garantindo o desempenho ótimo de mais de 10 serviços."
+          "Implementei pipelines de CI/CD, realizei deploy de novos serviços para produção e forneci suporte contínuo, depurando e garantindo o desempenho de mais de 10 serviços."
         ],
       },
       {
