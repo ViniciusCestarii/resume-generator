@@ -12,10 +12,20 @@ export interface Experience {
   responsibilities: string[];
 }
 
+export interface ExperienceSection {
+  title: string;
+  experiences: Experience[];
+}
+
 export interface Education {
   institution: string;
   duration: string;
   degree: string;
+}
+
+export interface EducationSection {
+  title: string;
+  educations: Education[];
 }
 
 export interface Project {
@@ -25,12 +35,27 @@ export interface Project {
   technologies: string;
 }
 
+export interface ProjectSection {
+  title: string;
+  projects: Project[];
+}
+
+export interface SkillsSection {
+  title: string;
+  skills: string[];
+}
+
+export interface LanguagesSection {
+  title: string;
+  languages: string[];
+}
+
 export interface ResumeData {
   name: string;
   contact: ContactInfo;
-  experience: Experience[];
-  education: Education[];
-  projects: Project[];
-  skills: string[];
-  languages: string[];
+  experience: ExperienceSection;
+  education: EducationSection;
+  project: ProjectSection;
+  skill: SkillsSection;
+  language: LanguagesSection;
 }

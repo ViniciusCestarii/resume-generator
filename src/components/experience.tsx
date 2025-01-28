@@ -8,10 +8,10 @@ function Experience({ experience }: ExperienceProps) {
   return (
     <section className="mb-6">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
-        Experience
+        {experience.title}
       </h2>
 
-      {experience.map((exp, index) => (
+      {experience.experiences.map((exp, index) => (
         <div key={index} className="mb-6">
           <div className="flex justify-between mb-1">
             <h3 className="font-bold">{exp.title}</h3>

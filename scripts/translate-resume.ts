@@ -1,4 +1,7 @@
-import { enResumeData } from "../src/types/en-resume-data";
+import path from "path";
+import fs from "fs";
+
+const DATA_RESUME_DIR = path.join(__dirname, '../src/data');
 
 (async () => {
   if (!process.env.GROQ_API_KEY) {
@@ -9,9 +12,13 @@ import { enResumeData } from "../src/types/en-resume-data";
     throw new Error('MODEL environment variable is required');
   }
 
-  const userPrompt = `Create the pt JSON translating the following JSON. Say in the first person, ex: Desenvolvi. Don't translate tech words, ex: Soft Skills = Soft Skills. Output only the JSON.
+  const enPath = path.join(DATA_RESUME_DIR, 'en-resume.ts');
 
-${JSON.stringify(enResumeData)}`;
+  const enFile = await fs.promises.readFile(enPath, 'utf-8');
+
+  const userPrompt = `Create the ptResumeData. Say in the first person, ex: Desenvolvi. Don't translate tech words, ex: Soft Skills = Soft Skills. Output it as JSON. Import the import { ResumeData } from "./resume";.
+
+${enFile}`;
 
   const apiEndpoint = 'https://api.groq.com/openai/v1/chat/completions';
 
@@ -42,10 +49,18 @@ ${JSON.stringify(enResumeData)}`;
     }
 
     const results = await response.json();
-    console.log(JSON.stringify(results, null, 2));
 
     const responseText = results.choices[0].message.content;
-    console.log(responseText);
+
+    const topCleanedResponse = responseText.split("```json\n")[1];
+
+    const cleanedResponse = topCleanedResponse.trimEnd().slice(0, -3);
+
+    const ptPath = path.join(DATA_RESUME_DIR, 'pt-resume.ts');
+
+    await fs.promises.writeFile(ptPath, cleanedResponse);
+
+    console.log(`pt-resume.ts created/updated successfully path: ${ptPath}`);
   } catch (error) {
     console.error('Error occurred:', error);
     throw error;

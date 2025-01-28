@@ -2,18 +2,18 @@ import { ResumeData } from "../types/resume";
 import { Link } from "./ui/link";
 
 interface ProjectsProps {
-  projects: Pick<ResumeData, "projects">["projects"];
+  project: Pick<ResumeData, "project">["project"];
 }
 
-function Projects({ projects }: ProjectsProps) {
+function Projects({ project }: ProjectsProps) {
   return (
     <section className="mb-6">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
-        Projects
+        {project.title}
       </h2>
 
       <div className="space-y-4">
-        {projects.map((project, index) => (
+        {project.projects.map((project, index) => (
           <div key={index}>
             <p className="mb-1">
               <span className="font-bold">{project.name}</span>

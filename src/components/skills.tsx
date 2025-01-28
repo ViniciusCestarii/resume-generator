@@ -1,17 +1,17 @@
 import { ResumeData } from "../types/resume";
 
 interface SkillsProps {
-  skills: Pick<ResumeData, "skills">["skills"];
+  skill: Pick<ResumeData, "skill">["skill"];
 }
 
-function Skills({ skills }: SkillsProps) {
+function Skills({ skill }: SkillsProps) {
   return (
     <section className="break-after-page">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
-        Skills
+        {skill.title}
       </h2>
       <ul className="list-disc ml-5 space-y-2 text-sm">
-        {skills.map((item, index) => (
+        {skill.skills.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
       </ul>
