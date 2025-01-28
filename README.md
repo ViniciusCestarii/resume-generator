@@ -8,8 +8,6 @@ formats and supports translation of resume content using the **Groq API**.
 <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/Vinicius%20Cestari%20-%20Resume.jpeg" />
 </div>
 
----
-
 ## Features
 
 - **Resume Generation**: Generate resumes in PDF and JPEG formats.
@@ -17,16 +15,12 @@ formats and supports translation of resume content using the **Groq API**.
 - **Tailwind CSS**: Styled with Tailwind CSS for a modern and responsive design.
 - **Puppeteer**: Uses Puppeteer for headless browser automation to generate PDFs and screenshots.- **Environment Variables**: Configure API keys and other settings via environment variables.    
 
----
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
 - [Bun](https://bun.sh/) (for ts file execution)
 - [Git](https://git-scm.com/)
-
----
 
 ## Setup
 
@@ -64,8 +58,6 @@ npm run dev
 bun dev
 ```
 
----
-
 ## Usage
 
 ### Generate Resume
@@ -76,7 +68,7 @@ bun dev
 npm run dev
 ```
 
-2. Open your browser and navigate to `http://localhost:3000`.
+2. Open your browser and navigate to `http://localhost:5173` to visualize the resume.
 
 3. Generate the resume in PDF and JPEG formats:
 
@@ -100,8 +92,6 @@ bun run translate
 
 This will use the Groq API to translate the resume JSON data and output the translated content.  
 
----
-
 ## Technologies Used
 
 - **Vite**: Fast build tool for modern web apps.
@@ -110,8 +100,6 @@ This will use the Groq API to translate the resume JSON data and output the tran
 - **Puppeteer**: Node.js library for controlling headless Chrome/Chromium.
 - **Groq API**: API for translating resume content.
 - **TypeScript**: Typed superset of JavaScript for better development.
-
----
 
 ## Contributing
 
@@ -123,13 +111,9 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
----
-
 ## License
 
 This project is licensed under the [MIT License](https://github.com/ViniciusCestarii/resume-generator/blob/main/LICENSE). See the LICENSE file for details.
-
----
 
 ## Acknowledgments
 
@@ -138,10 +122,6 @@ This project is licensed under the [MIT License](https://github.com/ViniciusCest
 - [**Puppeteer**](https://pptr.dev/) for headless browser automation.
 - [**Groq**](https://groq.com/) for the translation API.
 
----
-
 ## Support
 
 If you encounter any issues or have questions, please open an issue.
-
----
