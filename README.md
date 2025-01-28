@@ -4,12 +4,16 @@
 A web application for generating and translating resumes, built with **Vite**, **React**, **Tailwind CSS**, and **Puppeteer**. This app allows you to create resumes in both **PDF** and **JPEG** 
 formats and supports translation of resume content using the **Groq API**.
 
+<div align="center">
+<img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/Vinicius%20Cestari%20-%20Resume.jpeg" />
+</div>
+
 ---
 
 ## Features
 
 - **Resume Generation**: Generate resumes in PDF and JPEG formats.
-- **Translation**: Translate resume content from English to Portuguese (or other languages) using the Groq API.
+- **Translation**: Translate resume content from English to Portuguese, Espanish, French using the Groq API.
 - **Tailwind CSS**: Styled with Tailwind CSS for a modern and responsive design.
 - **Puppeteer**: Uses Puppeteer for headless browser automation to generate PDFs and screenshots.- **Environment Variables**: Configure API keys and other settings via environment variables.    
 
@@ -86,7 +90,7 @@ The generated files will be saved in the `resumes` directory.
 
 ### Translate Resume
 
-To translate the resume content from English to Portuguese (or another language), run:
+To translate the resume content from English to Portuguese, Espanish, French run:
 
 ```bash
 npm run translate
