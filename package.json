@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate": "bun run scripts/generate-resume.ts",
+    "translate": "bun run scripts/translate-resume.ts",
     "print:workflow": "bun dev"
   },
   "dependencies": {

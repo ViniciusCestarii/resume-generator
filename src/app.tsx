@@ -1,11 +1,14 @@
 import { useParams } from "react-router";
 import Resume from "./components/resume";
-import { enResumeData } from "./types/en-resume-data";
+import { enResumeData } from "./data/en-resume";
+import { ptResumeData } from "./data/pt-resume";
 
 const getData = (language: string | undefined) => {
   switch (language) {
     case "en":
       return enResumeData;
+    case "pt":
+      return ptResumeData;
     default:
       return enResumeData;
   }

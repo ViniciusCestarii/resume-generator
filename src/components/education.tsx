@@ -8,10 +8,10 @@ function Education({ education }: EducationProps) {
   return (
     <section className="mb-6">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
-        Education
+        {education.title}
       </h2>
 
-      {education.map((edu, index) => (
+      {education.educations.map((edu, index) => (
         <div key={index} className="mb-6">
           <div className="flex justify-between mb-1">
             <h3 className="font-bold">{edu.degree}</h3>
