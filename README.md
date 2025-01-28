@@ -1,5 +1,5 @@
 
-# Web App Resume Generator
+# Resume Generator
 
 A web application for generating and translating resumes, built with **Vite**, **React**, **Tailwind CSS**, and **Puppeteer**. This app allows you to create resumes in both **PDF** and **JPEG** 
 formats and supports translation of resume content using the **Groq API**.
