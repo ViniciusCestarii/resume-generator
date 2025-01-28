@@ -16,10 +16,10 @@ export const ptResumeData: ResumeData = {
         company: "BrBit Sistemas",
         duration: "Fevereiro 2024 - Atual",
         responsibilities: [
-          "Projetei e desenvolvi um robusto microsserviço (.NET, RabbitMQ) para integração perfeita com a API de pagamentos por lote do Banco do Brasil, automatizando e otimizando o processamento de transações financeiras.",
+          "Projetei e desenvolvi um robusto microsserviço (.NET, RabbitMQ) para integração com a API de pagamentos por lote do Banco do Brasil, automatizando e otimizando o processamento de transações financeiras.",
           "Projetei e implementei um serviço de agregação de dados de alto desempenho (Go, Gin, S3) consolidando 50+ bancos de dados PostgreSQL distribuídos em conjuntos de dados estáticos, reduzindo o tempo de processamento de dados em 80%.",
-          "Construí um painel dinâmico (Next.js, Chart.js, React Query) que busca dados com base na tenência e papel do usuário, garantindo acesso personalizado e seguro às informações relevantes.",
-          "Implementei pipelines de CI/CD, deploy de novos serviços para produção e forneceu suporte contínuo, depurando e garantindo o desempenho ótimo de mais de 10 serviços."
+          "Construí um painel dinâmico (Next.js, Chart.js, React Query) que busca dados com base na tenância e papel do usuário, garantindo acesso personalizado e seguro às informações relevantes.",
+          "Implementei pipelines de CI/CD, deploy de novos serviços para produção e forneci suporte contínuo, depurando e garantindo o desempenho ótimo de mais de 10 serviços."
         ],
       },
       {
@@ -66,7 +66,7 @@ export const ptResumeData: ResumeData = {
           { label: "Ver", url: "https://viniciuscestarii.github.io/cliparoo-doc" },
           { label: "Github", url: "https://github.com/ViniciusCestarii/cliparoo" },
         ],
-        description: "Desenvolvi um gerenciador de clipboard de desktop cross-platform com foco em privacidade que melhora a produtividade por meio de gerenciamento avançado de clipboard. Recursos incluem pesquisa inteligente em 2000+ itens de histórico de clipboard, temas personalizáveis e painel limpo. Construído com roteamento baseado em arquivos do SvelteKit e componentes da Daisy UI para melhores experiências de UI, mantendo 100% de armazenamento de dados local por padrão.",
+        description: "Desenvolvi um gerenciador de clipboard de desktop cross-platform com foco em privacidade que melhora a produtividade por meio de gerenciamento avançado de clipboard. Recursos incluem pesquisa inteligente em 2000+ itens de histórico de clipboard, temas personalizáveis e dashboard. Construído com roteamento baseado em arquivos do SvelteKit e componentes da Daisy UI para melhores experiências de UI, mantendo 100% de armazenamento de dados local por padrão.",
         technologies: "Tauri, Svelte, Svelte Kit, Rust, Tailwind CSS, Daisy UI",
       },
     ],
