@@ -1,17 +1,7 @@
 import puppeteer from 'puppeteer';
 import path from 'path';
 import fs from 'fs';
-
-type Langs = Record<string, { resume: string }>;
-
-const LANGS: Langs = {
-  en: {
-    resume: 'Resume',
-  },
-  pt: {
-    resume: 'Curriculo',
-  },
-};
+import { LANGS } from './langs';
 
 (async () => {
   if (!process.env.FULLNAME) {
