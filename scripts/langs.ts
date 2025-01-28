@@ -10,7 +10,7 @@ export const LANGS: Langs = {
   },
   pt: {
     resume: 'Curriculo',
-    translationPrompt: `Create the ptResumeData. Say in the first person, ex: Desenvolvi. Don't translate tech words, ex: Soft Skills = Soft Skills. Output it as JSON. Import the import { ResumeData } from "./resume"`
+    translationPrompt: `Create the ptResumeData. Say in the first person, ex: Desenvolvi. Don't translate tech words, ex: Soft Skills = Soft Skills. Brazil = Brasil. Output it as JSON. Import the import { ResumeData } from "./resume"`
   },
   es: {
     resume: 'Currículum',
