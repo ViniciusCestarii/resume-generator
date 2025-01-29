@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "./styles/fonts.css";
-@import "./styles/resume-rose.css";
 
 @theme {
   --font-calibri: "Calibri", "sans-serif";
@@ -10,4 +9,16 @@
   --spacing-resume-width: 8.5in;
 
   --spacing-0.25: 0.0625rem;
+
+  --spacing-rose-padding: 2rem;
+}
+
+.rose-lime {
+  --color-rose-100: var(--color-lime-100);
+  --color-rose-300: var(--color-lime-300);
+}
+
+.rose-sky {
+  --color-rose-100: var(--color-sky-100);
+  --color-rose-300: var(--color-sky-300);
 }
