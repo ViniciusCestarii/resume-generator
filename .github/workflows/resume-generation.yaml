@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  print:
+  generate:
     runs-on: ubuntu-latest
 
     permissions:
