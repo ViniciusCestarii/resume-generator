@@ -34,6 +34,10 @@ export default function App() {
       return <BoldResume data={data} />
     case "rose":
       return <RoseResume data={data} />
+    case "rose-lime":
+      return <RoseResume data={data} color={resumeStyle} />
+    case "rose-sky":
+      return <RoseResume data={data} color={resumeStyle}  />
     default:
       return <ClassicResume data={data} />
   }

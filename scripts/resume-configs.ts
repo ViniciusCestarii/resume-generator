@@ -28,5 +28,7 @@ type ResumeStyles = Record<string, object>
 export const RESUME_STYLES: ResumeStyles = {
   classic: {},
   bold: {},
-  rose: {}
+  rose: {},
+  "rose-lime": {},
+  "rose-sky": {}
 };
