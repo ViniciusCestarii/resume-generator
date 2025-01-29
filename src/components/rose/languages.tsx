@@ -6,13 +6,16 @@ interface LanguagesProps {
 
 function Languages({ language }: LanguagesProps) {
   return (
-    <section className="mb-6 text-sm">
-      <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
+    <section className="px-rose-padding">
+      <h2 className="text-2xl uppercase mb-4">
         {language.title}
       </h2>
-      <ul className="list-disc ml-5 space-y-2">
+      <ul className="grid grid-cols-2 text-sm">
         {language.languages.map((lang, index) => (
-          <li key={index}>{lang.name}: {lang.level}</li>
+          <li key={index} className="flex flex-col">{lang.name}
+            <span className="italic">{lang.level}
+            </span>
+          </li>
         ))}
       </ul>
     </section>

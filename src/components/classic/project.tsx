@@ -2,7 +2,7 @@ import { ResumeData } from "../../types/resume";
 import { Link } from "./ui/link";
 
 interface ProjectsProps {
-  project: Pick<ResumeData, "project">["project"];
+  project: ResumeData["project"];
 }
 
 function Projects({ project }: ProjectsProps) {

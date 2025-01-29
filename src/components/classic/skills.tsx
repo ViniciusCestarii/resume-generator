@@ -1,7 +1,7 @@
 import { ResumeData } from "../../types/resume";
 
 interface SkillsProps {
-  skill: Pick<ResumeData, "skill">["skill"];
+  skill: ResumeData["skill"];
 }
 
 function Skills({ skill }: SkillsProps) {

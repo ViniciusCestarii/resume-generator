@@ -2,8 +2,8 @@ import { ResumeData } from "../../types/resume";
 import { Link } from "./ui/link";
 
 interface HeaderProps {
-  name: Pick<ResumeData, "name">["name"];
-  contact: Pick<ResumeData, "contact">["contact"];
+  name: ResumeData["name"];
+  contact: ResumeData["contact"];
 }
 
 function Header({ name, contact }: HeaderProps) {
