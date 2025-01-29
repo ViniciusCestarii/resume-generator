@@ -1,7 +1,7 @@
 import { ResumeData } from "../../types/resume";
 
 interface LanguagesProps {
-  language: Pick<ResumeData, "language">["language"];
+  language: ResumeData["language"];
 }
 
 function Languages({ language }: LanguagesProps) {

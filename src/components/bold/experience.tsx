@@ -1,7 +1,7 @@
 import { ResumeData } from "../../types/resume";
 
 interface ExperienceProps {
-  experience: Pick<ResumeData, "experience">["experience"];
+  experience: ResumeData["experience"];
 }
 
 function Experience({ experience }: ExperienceProps) {
