@@ -75,7 +75,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone or Fork the Repository
 
 ```bash
-git clone https://github.com/your-username/resume-generator.git
+git clone https://github.com/ViniciusCestarii/resume-generator.git
 cd resume-generator
 ```
 
