@@ -10,6 +10,7 @@ ReactDOM.createRoot(root).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/:language" element={<App />} />
+      <Route path="/:language/:resumeStyle" element={<App />} />
     </Routes>
   </BrowserRouter>
 );

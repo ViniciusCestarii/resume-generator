@@ -1,9 +1,10 @@
 import { useParams } from "react-router";
-import Resume from "./components/resume";
+import ClassicResume from "./components/classic/resume";
 import { enResumeData } from "./data/en-resume";
 import { ptResumeData } from "./data/pt-resume";
 import { esResumeData } from "./data/es-resume";
 import { frResumeData } from "./data/fr-resume";
+import BoldResume from "./components/bold/resume";
 
 const getData = (language: string | undefined) => {
   switch (language) {
@@ -21,9 +22,16 @@ const getData = (language: string | undefined) => {
 }
 
 export default function App() {
-  const { language } = useParams();
+  const { language, resumeStyle } = useParams();
 
   const data = getData(language);
 
-  return <Resume data={data} />
+  switch (resumeStyle) {
+    case "classic":
+      return <ClassicResume data={data} />
+    case "bold":
+      return <BoldResume data={data} />
+    default:
+      return <ClassicResume data={data} />
+  }
 }

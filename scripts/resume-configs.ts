@@ -1,7 +1,8 @@
-type Langs = Record<string, { resume: string
+type Langs = Record<string, {
+  resume: string
   translationPrompt: string
 
- }>;
+}>;
 
 export const LANGS: Langs = {
   en: {
@@ -20,4 +21,11 @@ export const LANGS: Langs = {
     resume: 'Curriculum Vitae',
     translationPrompt: `Create the frResumeData. Say in the first person, ex: Développé. Don't translate tech words, ex: Soft Skills = Soft Skills. Output it as JSON. Import the import { ResumeData } from "./resume"`
   }
+};
+
+type ResumeStyles = Record<string, object>
+
+export const RESUME_STYLES: ResumeStyles = {
+  classic: {},
+  bold: {}
 };

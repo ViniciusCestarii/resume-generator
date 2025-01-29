@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 
 interface LanguagesProps {
   language: Pick<ResumeData, "language">["language"];
@@ -11,8 +11,8 @@ function Languages({ language }: LanguagesProps) {
         {language.title}
       </h2>
       <ul className="list-disc ml-5 space-y-2">
-        {language.languages.map((item, index) => (
-          <li key={index}>{item}</li>
+        {language.languages.map((lang, index) => (
+          <li key={index}>{lang.name}: {lang.level}</li>
         ))}
       </ul>
     </section>

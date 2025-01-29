@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 
 interface SkillsProps {
   skill: Pick<ResumeData, "skill">["skill"];
@@ -6,7 +6,7 @@ interface SkillsProps {
 
 function Skills({ skill }: SkillsProps) {
   return (
-    <section className="break-after-page">
+    <section className="print:break-after-page print:pt-resume-margin">
       <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
         {skill.title}
       </h2>

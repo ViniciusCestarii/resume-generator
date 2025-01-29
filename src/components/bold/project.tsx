@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 import { Link } from "./ui/link";
 
 interface ProjectsProps {
@@ -7,8 +7,8 @@ interface ProjectsProps {
 
 function Projects({ project }: ProjectsProps) {
   return (
-    <section className="mb-6">
-      <h2 className="text-xl font-bold border-b border-black pb-1 mb-4">
+    <section className="mb-4">
+      <h2 className="text-2xl font-bold uppercase mb-4">
         {project.title}
       </h2>
 
@@ -17,19 +17,20 @@ function Projects({ project }: ProjectsProps) {
           <div key={index}>
             <p className="mb-1">
               <span className="font-bold">{project.name}</span>
-              {" "}
-              <span className="text-sm">(
-              {project.links.map((link, i) => (
-                <span key={i}>
-                  <Link
-                    href={link.url}
-                  >
-                    {link.label}
-                  </Link>
-                  {i < project.links.length - 1 ? ", " : ""}
+              <span className="text-sm flex flex-wrap">
+                <span className="flex gap-1 mr-1">
+                  {project.links.map((link, i) => (
+                    <span key={i}>
+                      <Link
+                        href={link.url}
+                      >
+                        {link.label}
+                      </Link>
+                    </span>
+                  ))}
                 </span>
-              ))}
-              ) <span className="italic">{project.technologies}</span>
+                |
+                <span className="italic ml-1">{project.technologies}</span>
               </span>
             </p>
             <p className="text-sm">{project.description}</p>

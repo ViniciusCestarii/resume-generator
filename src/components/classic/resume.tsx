@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 import Education from "./education";
 import Experience from "./experience";
 import Header from "./header";
@@ -10,9 +10,9 @@ interface ResumeProps {
   data: ResumeData;
 }
 
-export default function Resume({ data }: ResumeProps) {
+export default function ClassicResume({ data }: ResumeProps) {
   return (
-    <div className="max-w-[8.5in] min-h-[11in] mx-auto font-resume bg-white p-[0.5in] print:p-[0] print:max-w-none print:mx-0 print:my-0 antialiased">
+    <div className="max-w-resume-width min-h-resume-height p-resume-margin mx-auto font-calibri bg-white antialiased">
       <Header  {...data} />
       <Experience {...data} />
       <Education  {...data} />
