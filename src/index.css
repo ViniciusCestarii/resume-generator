@@ -2,5 +2,5 @@
 @import "./styles/fonts.css";
 
 @theme {
-  --font-resume: "Calibri", "sans-serif";
+  --font-calibri: "Calibri", "sans-serif";
 }

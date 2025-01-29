@@ -85,8 +85,8 @@ export const frResumeData: ResumeData = {
   language: {
     title: "Langues",
     languages: [
-      "Portugais: Natif",
-      "Anglais: Avancé",
+      {name: "Portugais", level: "Natif"},
+      {name: "Anglais", level: "Avancé"},
     ],
   },
 };

@@ -85,8 +85,8 @@ export const enResumeData: ResumeData = {
   language: {
     title: "Languages",
     languages: [
-      "Portuguese: Native",
-      "English: Advanced",
+      { name: "Portuguese", level: "Native" },
+      { name: "English", level: "Professional" },
     ],
   },
 };

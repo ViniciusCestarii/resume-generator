@@ -45,9 +45,14 @@ export interface SkillsSection {
   skills: string[];
 }
 
+export interface Language {
+  name: string;
+  level: string;
+}
+
 export interface LanguagesSection {
   title: string;
-  languages: string[];
+  languages: Language[];
 }
 
 export interface ResumeData {
