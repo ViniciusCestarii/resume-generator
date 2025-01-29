@@ -12,7 +12,7 @@ interface ResumeProps {
 
 export default function ClassicResume({ data }: ResumeProps) {
   return (
-    <div className="max-w-[8.5in] min-h-[11in] mx-auto font-calibri bg-white p-[0.5in] print:p-[0] print:max-w-none print:mx-0 print:my-0 antialiased">
+    <div className="max-w-[8.5in] min-h-[11in] mx-auto font-calibri bg-white p-[0.5in] antialiased">
       <Header  {...data} />
       <Experience {...data} />
       <Education  {...data} />

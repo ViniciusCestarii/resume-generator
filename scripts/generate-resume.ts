@@ -66,7 +66,6 @@ const traverseConfigs = async (func: ({
         path: pdfPath,
         format: 'A4',
         printBackground: true,
-        margin: { top: '12.5mm', bottom: '12.5mm', left: '12.5mm', right: '12.5mm' },
       });
 
       console.log(`PDF saved to: ${pdfPath}`);
