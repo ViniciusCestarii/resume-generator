@@ -2,6 +2,10 @@ import { ResumeData } from "../types/resume";
 
 export const enResumeData: ResumeData = {
   name: "Vinicius Cestari",
+  profile: {
+    title: "Professional Sumary",
+    description: "Full Stack Engineer with 2+ years of experience in designing and developing scalable web applications, microservices, and APIs. Proficient in JavaScript, TypeScript, Go, and C#, with a strong foundation in data structures, algorithms, and software design principles. Passionate about solving complex problems and learning new technologies to deliver high-quality software solutions.",
+  },
   contact: {
     address: "Brusque, Santa Catarina, Brazil",
     phone: "+55 47 99775-5351",

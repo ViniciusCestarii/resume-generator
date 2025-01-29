@@ -55,8 +55,13 @@ export interface LanguagesSection {
   languages: Language[];
 }
 
+export interface ProfileSection {
+  title: string;
+  description: string;
+}
 export interface ResumeData {
   name: string;
+  profile: ProfileSection;
   contact: ContactInfo;
   experience: ExperienceSection;
   education: EducationSection;

@@ -2,6 +2,10 @@ import { ResumeData } from "../types/resume";
 
 export const ptResumeData: ResumeData = {
   name: "Vinicius Cestari",
+  profile: {
+    title: "Resumo Profissional",
+    description: "Engenheiro Full Stack com mais de 2 anos de experiência em designe e desenvolvimento de aplicações web escaláveis, microserviços e APIs. Proficiente em Javascript, Typescript, Go e C#, com uma forte base em estruturas de dados, algoritmos e princípios de design de software. Apaixonado por resolver problemas complexos e aprender novas tecnologias para entregar soluções de software de alta qualidade.",
+  },
   contact: {
     address: "Brusque, Santa Catarina, Brasil",
     phone: "+55 47 99775-5351",
@@ -14,7 +18,7 @@ export const ptResumeData: ResumeData = {
       {
         title: "Engenheiro Full Stack",
         company: "BrBit Sistemas",
-        duration: "Fevereiro 2024 - Atual",
+        duration: "Fev 2024 - Atual",
         responsibilities: [
           "Projetei e desenvolvi um robusto microsserviço (.NET, RabbitMQ) para integração com a API de pagamentos por lote do Banco do Brasil, automatizando e otimizando o processamento de transações financeiras.",
           "Projetei e implementei um serviço de agregação de dados de alto desempenho (Go, Gin, S3) consolidando 50+ bancos de dados PostgreSQL distribuídos em conjuntos de dados estáticos, reduzindo o tempo de processamento de dados em 80%.",
@@ -25,7 +29,7 @@ export const ptResumeData: ResumeData = {
       {
         title: "Desenvolvedor Full Stack",
         company: "BrBit Sistemas",
-        duration: "Janeiro 2023 - Fevereiro 2024",
+        duration: "Jan 2023 - Fev 2024",
         responsibilities: [
           "Colaborei e mantive um aplicativo web de administração multi-tenancy (.NET, React, Next.js) para mais de 60 tenants.",
           "Projetei e implantei uma plataforma de geração de relatórios dinâmicos (Node, PostgreSQL, Puppeteer, S3, SES) que automatizou 95% dos processos manuais, atendendo 200+ usuários mensais com saídas em PDF/Excel."
@@ -38,12 +42,12 @@ export const ptResumeData: ResumeData = {
     educations: [
       {
         institution: "UNIFEBE",
-        duration: "Fevereiro 2023 - Dezembro 2026",
+        duration: "Fev 2023 - Dez 2026",
         degree: "Bacharelado em Sistemas de Informação",
       },
       {
         institution: "IFC Campus Brusque",
-        duration: "Fevereiro 2020 - Dezembro 2022",
+        duration: "Fev 2020 - Dez 2022",
         degree: "Técnico em Informática",
       },
     ],
@@ -86,7 +90,7 @@ export const ptResumeData: ResumeData = {
     title: "Idiomas",
     languages: [
       { name: "Português", level: "Nativo" },
-      { name: "Inglês", level: "Avançado" },
+      { name: "Inglês", level: "Profissional" },
     ],
   },
 };
