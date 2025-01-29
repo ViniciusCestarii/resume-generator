@@ -4,6 +4,8 @@
 A web application for generating and translating resumes, built with **Vite**, **React**, **Tailwind CSS**, and **Puppeteer**. This app allows you to create resumes in both **PDF** and **JPEG** 
 formats and supports translation of resume content using the **Groq API**.
 
+With multiple **templates** available, you can generate resumes in different styles, allowing you to experiment and choose the design that best reflects your personality and professional identity.
+
 <table>
   <thead>
     <tr>
