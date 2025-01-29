@@ -3,7 +3,12 @@
 
 @theme {
   --font-calibri: "Calibri", "sans-serif";
+  --font-trebuchet: "Trebuchet MS", "sans-serif";
   --spacing-resume-margin: 0.5in;
   --spacing-resume-height: 11in;
   --spacing-resume-width: 8.5in;
+
+  --spacing-0.25: 0.0625rem;
+
+  --spacing-rose-padding: 2rem;
 }

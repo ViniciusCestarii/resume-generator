@@ -5,6 +5,7 @@ import { ptResumeData } from "./data/pt-resume";
 import { esResumeData } from "./data/es-resume";
 import { frResumeData } from "./data/fr-resume";
 import BoldResume from "./components/bold/resume";
+import RoseResume from "./components/rose/resume";
 
 const getData = (language: string | undefined) => {
   switch (language) {
@@ -31,6 +32,8 @@ export default function App() {
       return <ClassicResume data={data} />
     case "bold":
       return <BoldResume data={data} />
+    case "rose":
+      return <RoseResume data={data} />
     default:
       return <ClassicResume data={data} />
   }

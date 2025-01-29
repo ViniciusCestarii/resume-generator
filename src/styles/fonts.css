@@ -25,3 +25,38 @@
   font-weight: bold;
   font-style: italic;
 }
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('/src/assets/fonts/Calibri-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('/src/assets/fonts/trebuc.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('/src/assets/fonts/trebucbd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('/src/assets/fonts/trebucit.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('/src/assets/fonts/trebucbi.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
