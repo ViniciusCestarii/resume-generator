@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 
 interface LanguagesProps {
   language: Pick<ResumeData, "language">["language"];

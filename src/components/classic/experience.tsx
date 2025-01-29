@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 
 interface ExperienceProps {
   experience: Pick<ResumeData, "experience">["experience"];

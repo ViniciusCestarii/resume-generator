@@ -1,4 +1,4 @@
-import { ResumeData } from "../types/resume";
+import { ResumeData } from "../../types/resume";
 import { Link } from "./ui/link";
 
 interface ProjectsProps {

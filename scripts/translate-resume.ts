@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs";
-import { LANGS } from "./langs";
+import { LANGS } from "./resume-configs";
 
 const GROQ_API_ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
 
