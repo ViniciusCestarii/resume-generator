@@ -4,16 +4,34 @@
 A web application for generating and translating resumes, built with **Vite**, **React**, **Tailwind CSS**, and **Puppeteer**. This app allows you to create resumes in both **PDF** and **JPEG** 
 formats and supports translation of resume content using the **Groq API**.
 
-<div align="center">
-<img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/classic/Vinicius%20Cestari%20-%20Resume.jpeg" />
-</div>
+<table>
+  <thead>
+    <tr>
+      <th align="center">Classic</th>
+      <th align="center">Bold</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/classic/Vinicius%20Cestari%20-%20Resume.jpeg" title="Classic" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/bold/Vinicius%20Cestari%20-%20Resume.jpeg" title="Bold" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Features
 
 - **Resume Generation**: Generate resumes in PDF and JPEG formats.
 - **Translation**: Translate resume content from English to Portuguese, Espanish, French using the Groq API.
+- **Templates**: Leverage the same data to generate multiple styled resumes and discover which design suits you best.
 - **Tailwind CSS**: Styled with Tailwind CSS for a modern and responsive design.
-- **Puppeteer**: Uses Puppeteer for headless browser automation to generate PDFs and screenshots.- **Environment Variables**: Configure API keys and other settings via environment variables.    
+- **Puppeteer**: Uses Puppeteer for headless browser automation to generate PDFs and screenshots.
+- **Environment Variables**: Configure API keys and other settings via environment variables.
 
 ## Prerequisites
 
@@ -69,8 +87,10 @@ npm run dev
 ```
 
 2. Open your browser and navigate to `http://localhost:5173` to visualize the resume.
+   - To visualize your resume on other language: `http://localhost:5173/pt` | `http://localhost:5173/es` ...
+   - To viusalize your resume on other template: `http://localhost:5173/en/bold` | `http://localhost:5173/en/classic` ...
 
-3. Generate the resume in PDF and JPEG formats:
+4. Generate the resume in PDF and JPEG formats:
 
 ```bash
 npm run generate
