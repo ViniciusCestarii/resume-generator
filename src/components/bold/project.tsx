@@ -30,7 +30,7 @@ function Projects({ project }: ProjectsProps) {
                   ))}
                 </span>
                 |
-                <span className="italic ml-1">{project.technologies}</span>
+                <span className="italic font-bold ml-1">{project.technologies}</span>
               </span>
             </p>
             <p className="text-sm">{project.description}</p>
