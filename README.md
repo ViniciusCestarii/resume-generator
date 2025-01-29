@@ -16,10 +16,10 @@ With multiple **templates** available, you can generate resumes in different sty
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/classic/Vinicius%20Cestari%20-%20Resume.jpeg?" title="Classic" />
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/classic/Vinicius%20Cestari%20-%20Resume.jpeg" title="Classic" />
       </td>
       <td align="center">
-        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/bold/Vinicius%20Cestari%20-%20Resume.jpeg?" title="Bold" />
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/bold/Vinicius%20Cestari%20-%20Resume.jpeg" title="Bold" />
       </td>
     </tr>
     <thead>
@@ -30,10 +30,10 @@ With multiple **templates** available, you can generate resumes in different sty
     </thead>
     <tr>
       <td align="center">
-        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose/Vinicius%20Cestari%20-%20Resume.jpeg?" title="rose" />
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose/Vinicius%20Cestari%20-%20Resume.jpeg" title="rose" />
       </td>
       <td align="center">
-        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose-sky/Vinicius%20Cestari%20-%20Resume.jpeg?" title="rose-sky" />
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose-sky/Vinicius%20Cestari%20-%20Resume.jpeg" title="rose-sky" />
       </td>
     </tr>
     <thead>
@@ -44,7 +44,7 @@ With multiple **templates** available, you can generate resumes in different sty
     </thead>
     <tr>
       <td align="center">
-        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose-lime/Vinicius%20Cestari%20-%20Resume.jpeg?" title="rose-lime" />
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose-lime/Vinicius%20Cestari%20-%20Resume.jpeg" title="rose-lime" />
       </td>
       <td align="center">
         Follow this README and build your own amazing resume!
