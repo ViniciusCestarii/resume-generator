@@ -1,4 +1,4 @@
-name: 'Check Libt'
+name: 'Check Lint'
 
 on:
   pull_request:
