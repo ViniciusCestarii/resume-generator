@@ -33,7 +33,7 @@ With multiple **templates** available, you can generate resumes in different sty
 - **Templates**: Leverage the same data to generate multiple styled resumes and discover which design suits you best.
 - **Tailwind CSS**: Styled with Tailwind CSS for a modern and responsive design.
 - **Puppeteer**: Uses Puppeteer for headless browser automation to generate PDFs and screenshots.
-- **Environment Variables**: Configure API keys and other settings via environment variables.
+- **Simple Configuration**: Configure the resume content and styles using only a object.
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Before you begin, ensure you have the following installed:
 
 ## Setup
 
-### 1. Clone the Repository
+### 1. Clone or Fork the Repository
 
 ```bash
 git clone https://github.com/your-username/resume-generator.git
@@ -66,7 +66,6 @@ Create a `.env` file in the root directory and add the following variables:
 ```env
 GROQ_API_KEY=your_groq_api_key_here
 MODEL=groq_model_name_here
-FULLNAME=Your_Full_Name
 PRINT_PORT=5173 # for development and 4173 for builded project
 ```
 
@@ -79,6 +78,10 @@ bun dev
 ```
 
 ## Usage
+
+### Update Resume Content
+
+To update the resume content, open the `src/data/en-resume.ts` file and modify the data as needed and save.
 
 ### Generate Resume
 

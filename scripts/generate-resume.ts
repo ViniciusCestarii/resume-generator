@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer';
 import path from 'path';
 import fs from 'fs';
 import { LANGS, RESUME_STYLES } from './resume-configs';
+import { enResumeData } from '../src/data/en-resume';
 
 const traverseConfigs = async (func: ({
   lang,
@@ -21,10 +22,6 @@ const traverseConfigs = async (func: ({
 }
 
 (async () => {
-  if (!process.env.FULLNAME) {
-    throw new Error('FULLNAME environment variable is required');
-  }
-
   if (!process.env.PRINT_PORT) {
     throw new Error('PRINT_PORT environment variable is required');
   }
@@ -73,7 +70,7 @@ const traverseConfigs = async (func: ({
 
     await traverseConfigs(async ({ lang, style }) => {
         await page.goto(url + `/${lang}/${style}`, { waitUntil: 'networkidle0' })
-        const fileName = `${process.env.FULLNAME} - ${LANGS[lang].resume}`;
+        const fileName = `${enResumeData.name} - ${LANGS[lang].resume}`;
         await generateResume(fileName, lang, style);
     })
   } catch (error) {

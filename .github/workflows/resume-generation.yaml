@@ -39,7 +39,6 @@ jobs:
     - name: Generate Resume
       run: bun generate
       env:
-        FULLNAME: ${{ vars.FULLNAME }}
         PRINT_PORT: 4173
 
     - name: Commit and push if changed
