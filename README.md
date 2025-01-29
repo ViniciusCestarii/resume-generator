@@ -9,8 +9,8 @@ With multiple **templates** available, you can generate resumes in different sty
 <table>
   <thead>
     <tr>
-      <th align="center">Classic</th>
-      <th align="center">Bold</th>
+      <th align="center">classic</th>
+      <th align="center">bold</th>
     </tr>
   </thead>
   <tbody>
@@ -20,6 +20,34 @@ With multiple **templates** available, you can generate resumes in different sty
       </td>
       <td align="center">
         <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/bold/Vinicius%20Cestari%20-%20Resume.jpeg" title="Bold" />
+      </td>
+    </tr>
+    <thead>
+      <tr>
+        <th align="center">rose</th>
+        <th align="center">rose-sky</th>
+      </tr>
+    </thead>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose/Vinicius%20Cestari%20-%20Resume.jpeg" title="rose" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose-sky/Vinicius%20Cestari%20-%20Resume.jpeg" title="rose-sky" />
+      </td>
+    </tr>
+    <thead>
+      <tr>
+        <th align="center">rose-lime</th>
+        <th align="center">Build Your Own!</th>
+      </tr>
+    </thead>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/rose-lime/Vinicius%20Cestari%20-%20Resume.jpeg" title="rose-lime" />
+      </td>
+      <td align="center">
+        Follow this README and build your own amazing resume!
       </td>
     </tr>
   </tbody>
