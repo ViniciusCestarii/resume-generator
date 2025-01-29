@@ -18,7 +18,7 @@ export const ptResumeData: ResumeData = {
       {
         title: "Engenheiro Full Stack",
         company: "BrBit Sistemas",
-        duration: "Fev 2024 - Atual",
+        duration: "Fevereiro 2024 - Atual",
         responsibilities: [
           "Projetei e desenvolvi um robusto microsserviço (.NET, RabbitMQ) para integração com a API de pagamentos por lote do Banco do Brasil, automatizando e otimizando o processamento de transações financeiras.",
           "Projetei e implementei um serviço de agregação de dados de alto desempenho (Go, Gin, S3) consolidando 50+ bancos de dados PostgreSQL distribuídos em conjuntos de dados estáticos, reduzindo o tempo de processamento de dados em 80%.",
@@ -29,7 +29,7 @@ export const ptResumeData: ResumeData = {
       {
         title: "Desenvolvedor Full Stack",
         company: "BrBit Sistemas",
-        duration: "Jan 2023 - Fev 2024",
+        duration: "Janeiro 2023 - Fevereiro 2024",
         responsibilities: [
           "Colaborei e mantive um aplicativo web de administração multi-tenancy (.NET, React, Next.js) para mais de 60 tenants.",
           "Projetei e implantei uma plataforma de geração de relatórios dinâmicos (Node, PostgreSQL, Puppeteer, S3, SES) que automatizou 95% dos processos manuais, atendendo 200+ usuários mensais com saídas em PDF/Excel."
@@ -42,12 +42,12 @@ export const ptResumeData: ResumeData = {
     educations: [
       {
         institution: "UNIFEBE",
-        duration: "Fev 2023 - Dez 2026",
+        duration: "Fevereiro 2023 - Dezembro 2026",
         degree: "Bacharelado em Sistemas de Informação",
       },
       {
         institution: "IFC Campus Brusque",
-        duration: "Fev 2020 - Dez 2022",
+        duration: "Fevereiro 2020 - Dezembro 2022",
         degree: "Técnico em Informática",
       },
     ],

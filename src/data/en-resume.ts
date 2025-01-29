@@ -18,7 +18,7 @@ export const enResumeData: ResumeData = {
       {
         title: "Full Stack Engineer",
         company: "BrBit Sistemas",
-        duration: "Feb 2024 - Present",
+        duration: "February 2024 - Present",
         responsibilities: [
           "Designed and developed a robust microservice (.NET, RabbitMQ) for seamless integration with Banco do Brasil's batch payment API, automating and optimizing financial transaction processing.",
           "Designed and implemented a high-performance data aggregation service (Go, Gin, S3) consolidating 50+ distributed PostgreSQL databases into static datasets, reducing data processing time by 80%.",
@@ -29,7 +29,7 @@ export const enResumeData: ResumeData = {
       {
         title: "Full Stack Developer",
         company: "BrBit Sistemas",
-        duration: "Jan 2023 - Feb 2024",
+        duration: "January 2023 - February 2024",
         responsibilities: [
           "Collaborated and maintained a multi-tenancy admin web application (.NET, React, Next.js) for more than 60 tenants.",
           "Designed and deployed a dynamic report generation platform (Node, PostgreSQL, Puppeteer, S3, SES) that automated 95% of manual processes, serving 200+ monthly users with PDF/Excel outputs."
@@ -42,12 +42,12 @@ export const enResumeData: ResumeData = {
     educations: [
       {
         institution: "UNIFEBE",
-        duration: "Feb 2023 - Dec 2026",
+        duration: "Febraury 2023 - December 2026",
         degree: "Bachelor of Information Systems",
       },
       {
         institution: "IFC Campus Brusque",
-        duration: "Feb 2020 - Dec 2022",
+        duration: "Febraury 2020 - December 2022",
         degree: "Technical in Information Technology",
       },
     ],
