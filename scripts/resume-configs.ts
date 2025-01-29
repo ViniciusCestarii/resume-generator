@@ -26,6 +26,6 @@ export const LANGS: Langs = {
 type ResumeStyles = Record<string, object>
 
 export const RESUME_STYLES: ResumeStyles = {
-  classic: {
-  },
+  classic: {},
+  bold: {}
 };

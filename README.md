@@ -5,7 +5,7 @@ A web application for generating and translating resumes, built with **Vite**, *
 formats and supports translation of resume content using the **Groq API**.
 
 <div align="center">
-<img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/Vinicius%20Cestari%20-%20Resume.jpeg" />
+<img src="https://github.com/ViniciusCestarii/resume-generator/blob/main/resumes/en/classic/Vinicius%20Cestari%20-%20Resume.jpeg" />
 </div>
 
 ## Features

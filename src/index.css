@@ -3,4 +3,7 @@
 
 @theme {
   --font-calibri: "Calibri", "sans-serif";
+  --spacing-resume-margin: 0.5in;
+  --spacing-resume-height: 11in;
+  --spacing-resume-width: 8.5in;
 }
