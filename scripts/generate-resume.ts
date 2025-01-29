@@ -56,7 +56,7 @@ const traverseConfigs = async (func: ({
       await page.screenshot({
         path: jpegPath,
         type: 'jpeg',
-        quality: 90,
+        quality: 100,
         fullPage: true,
       });
 
