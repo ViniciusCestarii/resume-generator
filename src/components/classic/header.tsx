@@ -12,7 +12,7 @@ function Header({ name, contact }: HeaderProps) {
       <div className="flex justify-between mb-2">
         <div className="text-left text-sm">
           <p>{contact.address}</p>
-          <p><Link href={`https://www.linkedin.com/${contact.linkedin}`}>{contact.linkedin}</Link></p>
+          <p><Link href={`https://www.linkedin.com/${contact.linkedin}`}>www.linkedin.com/{contact.linkedin}</Link></p>
         </div>
         <h1 className="text-4xl font-normal">{name}</h1>
         <div className="text-right text-sm">
